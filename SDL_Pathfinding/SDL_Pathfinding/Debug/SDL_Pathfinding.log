@@ -1,10 +1,1 @@
-﻿  Agent.cpp
-  Grid.cpp
-  main.cpp
-  PathFollowing.cpp
-  ScenePathFindingMouse.cpp
-  SDL_SimpleApp.cpp
-  Seek.cpp
-  utils.cpp
-  Generating Code...
-  SDL_Pathfinding.vcxproj -> D:\GIT REPOS\AA3_JordiCliment_AniolMorato\bin\SDL_Pathfinding.exe
+﻿  SDL_Pathfinding.vcxproj -> D:\GIT REPOS\AA3_JordiCliment_AniolMorato\bin\SDL_Pathfinding.exe

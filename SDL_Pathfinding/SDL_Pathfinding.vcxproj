@@ -135,6 +135,7 @@
     <ClCompile Include="Grid.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PathFollowing.cpp" />
+    <ClCompile Include="SceneBreathFirstSearch.cpp" />
     <ClCompile Include="ScenePathFindingMouse.cpp" />
     <ClCompile Include="SDL_SimpleApp.cpp" />
     <ClCompile Include="Seek.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="Path.h" />
     <ClInclude Include="PathFollowing.h" />
     <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneBreathFirstSearch.h" />
     <ClInclude Include="ScenePathFindingMouse.h" />
     <ClInclude Include="SDL_SimpleApp.h" />
     <ClInclude Include="Seek.h" />
