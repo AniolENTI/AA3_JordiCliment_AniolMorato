@@ -13,7 +13,7 @@ SceneBreathFirstSearch::SceneBreathFirstSearch()
 
 	Agent* agent = new Agent;
 	agent->loadSpriteTexture("../res/soldier.png", 4);
-	//agent->setBehavior(new PathFollowing);
+	agent->setBehavior(new PathFollowing);
 	agent->setTarget(Vector2D(-20, -20));
 	agents.push_back(agent);
 
@@ -28,7 +28,6 @@ SceneBreathFirstSearch::SceneBreathFirstSearch()
 	while ((!maze->isValidCell(coinPosition)) || (Vector2D::Distance(coinPosition, rand_cell) < 3))
 		coinPosition = Vector2D((float)(rand() % maze->getNumCellX()), (float)(rand() % maze->getNumCellY()));
 
-	//frontier = agents[0].BreathFirstSearch
 }
 
 SceneBreathFirstSearch::~SceneBreathFirstSearch()

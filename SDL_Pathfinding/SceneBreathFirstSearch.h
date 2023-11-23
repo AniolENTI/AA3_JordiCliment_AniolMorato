@@ -19,22 +19,16 @@ public:
 	void draw();
 	const char* getTitle();
 private:
-//Variables
 	std::vector<Agent*> agents;
-	std::vector<Vector2D> frontier;
-
 	Vector2D coinPosition;
-	Vector2D currentTarget;
 
 	Grid* maze;
 	bool draw_grid;
 
-	SDL_Texture* background_texture;
-	SDL_Texture* coin_texture;
-
-//Funcions
 	void drawMaze();
 	void drawCoin();
+	SDL_Texture* background_texture;
+	SDL_Texture* coin_texture;
 	bool loadTextures(char* filename_bg, char* filename_coin);
 };
 
