@@ -13,7 +13,6 @@ SceneBreathFirstSearch::SceneBreathFirstSearch()
 
 	Agent* agent = new Agent;
 	agent->loadSpriteTexture("../res/soldier.png", 4);
-	agent->setBehavior(new PathFollowing);
 	agent->setTarget(Vector2D(-20, -20));
 	agents.push_back(agent);
 
@@ -28,6 +27,7 @@ SceneBreathFirstSearch::SceneBreathFirstSearch()
 	while ((!maze->isValidCell(coinPosition)) || (Vector2D::Distance(coinPosition, rand_cell) < 3))
 		coinPosition = Vector2D((float)(rand() % maze->getNumCellX()), (float)(rand() % maze->getNumCellY()));
 
+	agent->calculateBreathFirstSearch(agent->getPosition(), coinPosition);
 }
 
 SceneBreathFirstSearch::~SceneBreathFirstSearch()
@@ -100,7 +100,7 @@ void SceneBreathFirstSearch::draw()
 
 const char* SceneBreathFirstSearch::getTitle()
 {
-	return "SDL Path Finding :: PathFinding Mouse Demo";
+	return "SDL Path Finding :: Breath First Search Demo";
 }
 
 void SceneBreathFirstSearch::drawMaze()

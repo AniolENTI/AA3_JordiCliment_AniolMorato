@@ -7,7 +7,10 @@
 #include "Path.h"
 #include "Vector2D.h"
 #include "utils.h"
+#include <queue>
+#include <unordered_map>
 
+using std::vector;
 
 class Agent
 {
@@ -40,6 +43,8 @@ private:
 	int sprite_w;
 	int sprite_h;
 
+	vector<Vector2D> frontierCount;
+
 public:
 	Agent();
 	~Agent();
@@ -63,4 +68,5 @@ public:
 	void draw();
 	bool Agent::loadSpriteTexture(char* filename, int num_frames=1);
 	
+	vector<Vector2D> calculateBreathFirstSearch(Vector2D agentPosition, Vector2D targetPosition);
 };
