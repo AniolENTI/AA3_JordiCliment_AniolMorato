@@ -1,8 +1,6 @@
 #include "Heuristics.h"
 
 int Heuristics::manhatanDistance(Vector2D init, Vector2D fin) {
-	/*fin = pix2cell(fin);
-	init = pix2cell(init);*/
 
 	int ret1 = fin.x - init.x;
 	if (abs(ret1) >= (SRC_WIDTH / (CELL_SIZE * 2))) {

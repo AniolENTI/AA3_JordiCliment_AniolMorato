@@ -32,7 +32,6 @@ public:
 	void InitializeBreathFirstSearch(Node* startNode);
 	vector<Vector2D> Search(Node* n, Vector2D v);
 	void SearchPerTick(Node* n, Vector2D v);
-	vector<Vector2D> DebugSearch(Scene* s, Node* n, Vector2D v);
 	void ExpandFrontier(Node* n);
 	void ExpandFrontier(Node* n, int&, int&);
 	vector<Vector2D> FillPath(Node* n);
