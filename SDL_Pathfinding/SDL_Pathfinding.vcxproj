@@ -132,6 +132,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Agent.cpp" />
+    <ClCompile Include="BreathFirstSearch.cpp" />
     <ClCompile Include="Grid.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PathFollowing.cpp" />
@@ -143,7 +144,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Agent.h" />
+    <ClInclude Include="BreathFirstSearch.h" />
     <ClInclude Include="Grid.h" />
+    <ClInclude Include="Node.h" />
     <ClInclude Include="Path.h" />
     <ClInclude Include="PathFollowing.h" />
     <ClInclude Include="Scene.h" />

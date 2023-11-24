@@ -1,163 +1,91 @@
 ﻿  Agent.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,55): error C2676: binary '<': 'const _Ty' does not define this operator or a conversion to a type acceptable to the predefined operator
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\map(653,17): message : could be 'bool std::operator <(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::multimap<_Kty,_Ty,_Pr,_Alloc> &,const std::multimap<_Kty,_Ty,_Pr,_Alloc> &)': could not deduce template argument for 'const std::multimap<_Kty,_Ty,_Pr,_Alloc> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\map(420,17): message : or       'bool std::operator <(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::map<_Kty,_Ty,_Pr,_Alloc> &,const std::map<_Kty,_Ty,_Pr,_Alloc> &)': could not deduce template argument for 'const std::map<_Kty,_Ty,_Pr,_Alloc> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple(693,27): message : or       'bool std::operator <(const std::tuple<_Types...> &,const std::tuple<_Types...> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::tuple<_Types...> &,const std::tuple<_Types...> &)': could not deduce template argument for 'const std::tuple<_Types...> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\queue(191,17): message : or       'bool std::operator <(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::queue<_Ty,_Container> &,const std::queue<_Ty,_Container> &)': could not deduce template argument for 'const std::queue<_Ty,_Container> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\deque(1725,17): message : or       'bool std::operator <(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::deque<_Ty,_Alloc> &,const std::deque<_Ty,_Alloc> &)': could not deduce template argument for 'const std::deque<_Ty,_Alloc> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector(2373,30): message : or       'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::vector<_Ty,_Alloc> &,const std::vector<_Ty,_Alloc> &)': could not deduce template argument for 'const std::vector<_Ty,_Alloc> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(3545,30): message : or       'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(std::nullptr_t,const std::unique_ptr<_Ty,_Dx> &)': could not deduce template argument for 'const std::unique_ptr<_Ty,_Dx> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(3539,30): message : or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,std::nullptr_t)': could not deduce template argument for 'const std::unique_ptr<_Ty,_Dx> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(3481,17): message : or       'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::unique_ptr<_Ty,_Dx> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty,_Dx> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(1879,17): message : or       'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(std::nullptr_t,const std::shared_ptr<_Ty> &) noexcept': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(1874,17): message : or       'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::shared_ptr<_Ty> &,std::nullptr_t) noexcept': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(1827,17): message : or       'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::shared_ptr<_Ty> &,const std::shared_ptr<_Ty0> &) noexcept': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5241,17): message : or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const _Elem *const )': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5236,17): message : or       'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const _Elem *const ,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const _Elem *const ' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5230,17): message : or       'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::basic_string<_Elem,_Traits,_Alloc> &,const std::basic_string<_Elem,_Traits,_Alloc> &) noexcept': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(3599,5): message : or       'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(1422,5): message : or       'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility(387,27): message : or       'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef(142,49): message : 'bool std::operator <(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)': could not deduce template argument for 'const std::pair<_Ty1,_Ty2> &' from 'const _Ty'
-          with
-          [
-              _Ty=Vector2D
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility(1091,16): message : see reference to function template instantiation 'bool std::_Debug_lt_pred<const std::less<Vector2D>&,const _Kty&,const _Keyty&,0>(_Pr,_Ty1,_Ty2) noexcept(<expr>)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map(50,99): error C2280: 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare(const std::_Uhash_compare<_Kty,_Hasher,_Keyeq> &)': attempting to reference a deleted function
           with
           [
               _Kty=Vector2D,
-              _Keyty=Vector2D,
-              _Pr=const std::less<Vector2D> &,
-              _Ty1=const Vector2D &,
-              _Ty2=const Vector2D &
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\map(196,1): message : see reference to function template instantiation 'std::_Tree_find_result<std::_Tree_node<std::pair<const Vector2D,Vector2D>,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Find_lower_bound<Vector2D>(const _Keyty &) const' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash(176,1): message : compiler has generated 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare' here
           with
           [
-              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>,
+              _Kty=Vector2D,
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash(176,1): message : 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare(const std::_Uhash_compare<_Kty,_Hasher,_Keyeq> &)': function was implicitly deleted because a data member invokes a deleted or inaccessible function 'std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true>::_Compressed_pair(const std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true> &)'
+          with
+          [
+              _Kty=Vector2D,
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>
+          ]
+          and
+          [
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory(1529,1): message : 'std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true>::_Compressed_pair(const std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true> &)': function was implicitly deleted because a base class invokes a deleted or inaccessible function 'std::hash<Vector2D>::hash(const std::hash<Vector2D> &)'
+          with
+          [
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2411,1): message : 'std::hash<Vector2D>::hash(const std::hash<Vector2D> &)': function was implicitly deleted because a base class invokes a deleted or inaccessible function 'std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)'
+          with
+          [
+              _Kty=Vector2D
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2398,5): message : 'std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)': function was explicitly deleted
+          with
+          [
+              _Kty=Vector2D
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map(50,5): message : while compiling class template member function 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>::_Umap_traits(const _Tr &) noexcept(false)'
+          with
+          [
               _Kty=Vector2D,
               _Ty=Vector2D,
-              _Pr=std::less<Vector2D>,
-              _Keyty=Vector2D
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>,
+              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>,
+              _Tr=std::_Uhash_compare<Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\map(196,36): message : see reference to function template instantiation 'std::_Tree_find_result<std::_Tree_node<std::pair<const Vector2D,Vector2D>,std::_Default_allocator_traits<_Alloc>::void_pointer> *> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Find_lower_bound<Vector2D>(const _Keyty &) const' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash(376,21): message : see the first reference to 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>::_Umap_traits' in 'std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Hash'
           with
           [
-              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>,
               _Kty=Vector2D,
               _Ty=Vector2D,
-              _Pr=std::less<Vector2D>,
-              _Keyty=Vector2D
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>,
+              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\map(345,1): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const Vector2D,Vector2D>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::map<Vector2D,Vector2D,std::less<Vector2D>,_Alloc>::_Try_emplace<const Vector2D&,>(_Keyty)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map(107,30): message : see the first reference to 'std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Hash' in 'std::unordered_map<Vector2D,Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>::unordered_map'
           with
           [
-              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>,
-              _Keyty=const Vector2D &
+              _Kty=Vector2D,
+              _Ty=Vector2D,
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>,
+              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\map(345,9): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const Vector2D,Vector2D>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::map<Vector2D,Vector2D,std::less<Vector2D>,_Alloc>::_Try_emplace<const Vector2D&,>(_Keyty)' being compiled
+C:\Users\AniolMorató\OneDrive - U.College of New Technologies SL\Documents\GitHub\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Agent.cpp(206,36): message : see the first reference to 'std::unordered_map<Vector2D,Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>::unordered_map' in 'Agent::calculateBreathFirstSearch'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash(335,1): message : see reference to class template instantiation 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>' being compiled
           with
           [
-              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>,
-              _Keyty=const Vector2D &
+              _Kty=Vector2D,
+              _Ty=Vector2D,
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>,
+              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\map(344,1): message : while compiling class template member function 'Vector2D &std::map<Vector2D,Vector2D,std::less<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>::operator [](const Vector2D &)'
-D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Agent.cpp(207,26): message : see reference to function template instantiation 'Vector2D &std::map<Vector2D,Vector2D,std::less<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>::operator [](const Vector2D &)' being compiled
-D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Agent.cpp(206,26): message : see reference to class template instantiation 'std::map<Vector2D,Vector2D,std::less<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>' being compiled
-  Grid.cpp
-  main.cpp
-  PathFollowing.cpp
-  SceneBreathFirstSearch.cpp
-  ScenePathFindingMouse.cpp
-  Seek.cpp
-  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map(67,30): message : see reference to class template instantiation 'std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>' being compiled
+          with
+          [
+              _Kty=Vector2D,
+              _Ty=Vector2D,
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>,
+              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>
+          ]
+C:\Users\AniolMorató\OneDrive - U.College of New Technologies SL\Documents\GitHub\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Agent.cpp(206,36): message : see reference to class template instantiation 'std::unordered_map<Vector2D,Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>' being compiled

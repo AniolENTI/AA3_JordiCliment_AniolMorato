@@ -232,7 +232,7 @@ vector<Vector2D> Agent::calculateBreathFirstSearch(Vector2D agentPosition, Vecto
 			return path.points;
 		}
 
-		//neighbors = graph.GetConnections(current);
+		//TODO: Omplir els neighbors
 
 		for (unsigned int i = 0; i < neighbors.size(); i++)
 		{

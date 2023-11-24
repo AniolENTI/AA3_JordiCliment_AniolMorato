@@ -8,6 +8,7 @@
 #include "Agent.h"
 #include "Seek.h"
 #include "Grid.h"
+#include "Node.h"
 
 class SceneBreathFirstSearch : 
 public Scene
