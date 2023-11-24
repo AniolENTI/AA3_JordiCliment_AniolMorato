@@ -7,6 +7,6 @@ struct Node
 	Vector2D position;
 	float weight;
 	std::vector<Node*>connections;
-	Node* cameFrom;
+	Node* previousNode;
 };
 

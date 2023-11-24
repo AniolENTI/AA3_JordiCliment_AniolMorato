@@ -1,19 +1,19 @@
 ﻿  Agent.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map(50,99): error C2280: 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare(const std::_Uhash_compare<_Kty,_Hasher,_Keyeq> &)': attempting to reference a deleted function
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\unordered_map(50,99): error C2280: 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare(const std::_Uhash_compare<_Kty,_Hasher,_Keyeq> &)': attempting to reference a deleted function
           with
           [
               _Kty=Vector2D,
               _Hasher=std::hash<Vector2D>,
               _Keyeq=std::equal_to<Vector2D>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash(176,1): message : compiler has generated 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare' here
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xhash(175,1): message : compiler has generated 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare' here
           with
           [
               _Kty=Vector2D,
               _Hasher=std::hash<Vector2D>,
               _Keyeq=std::equal_to<Vector2D>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash(176,1): message : 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare(const std::_Uhash_compare<_Kty,_Hasher,_Keyeq> &)': function was implicitly deleted because a data member invokes a deleted or inaccessible function 'std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true>::_Compressed_pair(const std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xhash(175,1): message : 'std::_Uhash_compare<_Kty,_Hasher,_Keyeq>::_Uhash_compare(const std::_Uhash_compare<_Kty,_Hasher,_Keyeq> &)': function was implicitly deleted because a data member invokes a deleted or inaccessible function 'std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true>::_Compressed_pair(const std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true> &)'
           with
           [
               _Kty=Vector2D,
@@ -25,23 +25,23 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.3282
               _Hasher=std::hash<Vector2D>,
               _Keyeq=std::equal_to<Vector2D>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory(1529,1): message : 'std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true>::_Compressed_pair(const std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true> &)': function was implicitly deleted because a base class invokes a deleted or inaccessible function 'std::hash<Vector2D>::hash(const std::hash<Vector2D> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmemory(1390,1): message : 'std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true>::_Compressed_pair(const std::_Compressed_pair<_Hasher,std::_Compressed_pair<_Keyeq,float,true>,true> &)': function was implicitly deleted because a base class invokes a deleted or inaccessible function 'std::hash<Vector2D>::hash(const std::hash<Vector2D> &)'
           with
           [
               _Hasher=std::hash<Vector2D>,
               _Keyeq=std::equal_to<Vector2D>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2411,1): message : 'std::hash<Vector2D>::hash(const std::hash<Vector2D> &)': function was implicitly deleted because a base class invokes a deleted or inaccessible function 'std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(2185,1): message : 'std::hash<Vector2D>::hash(const std::hash<Vector2D> &)': function was implicitly deleted because a base class invokes a deleted or inaccessible function 'std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)'
           with
           [
               _Kty=Vector2D
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(2398,5): message : 'std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)': function was explicitly deleted
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits(2171,5): message : 'std::_Conditionally_enabled_hash<_Kty,false>::_Conditionally_enabled_hash(const std::_Conditionally_enabled_hash<_Kty,false> &)': function was explicitly deleted
           with
           [
               _Kty=Vector2D
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map(50,5): message : while compiling class template member function 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>::_Umap_traits(const _Tr &) noexcept(false)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\unordered_map(50,1): message : while compiling class template member function 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>::_Umap_traits(const _Tr &) noexcept(false)'
           with
           [
               _Kty=Vector2D,
@@ -51,7 +51,17 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.3282
               _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>,
               _Tr=std::_Uhash_compare<Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash(376,21): message : see the first reference to 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>::_Umap_traits' in 'std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Hash'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xhash(375,21): message : see reference to function template instantiation 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>::_Umap_traits(const _Tr &) noexcept(false)' being compiled
+          with
+          [
+              _Kty=Vector2D,
+              _Ty=Vector2D,
+              _Hasher=std::hash<Vector2D>,
+              _Keyeq=std::equal_to<Vector2D>,
+              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>,
+              _Tr=std::_Uhash_compare<Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xhash(334,1): message : see reference to class template instantiation 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>' being compiled
           with
           [
               _Kty=Vector2D,
@@ -60,7 +70,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.3282
               _Keyeq=std::equal_to<Vector2D>,
               _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>
           ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map(107,30): message : see the first reference to 'std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::_Hash' in 'std::unordered_map<Vector2D,Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>::unordered_map'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\unordered_map(67,115): message : see reference to class template instantiation 'std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>' being compiled
           with
           [
               _Kty=Vector2D,
@@ -69,23 +79,47 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.3282
               _Keyeq=std::equal_to<Vector2D>,
               _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>
           ]
-C:\Users\AniolMorató\OneDrive - U.College of New Technologies SL\Documents\GitHub\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Agent.cpp(206,36): message : see the first reference to 'std::unordered_map<Vector2D,Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>::unordered_map' in 'Agent::calculateBreathFirstSearch'
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash(335,1): message : see reference to class template instantiation 'std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>' being compiled
-          with
-          [
-              _Kty=Vector2D,
-              _Ty=Vector2D,
-              _Hasher=std::hash<Vector2D>,
-              _Keyeq=std::equal_to<Vector2D>,
-              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>
-          ]
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map(67,30): message : see reference to class template instantiation 'std::_Hash<std::_Umap_traits<_Kty,_Ty,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>' being compiled
-          with
-          [
-              _Kty=Vector2D,
-              _Ty=Vector2D,
-              _Hasher=std::hash<Vector2D>,
-              _Keyeq=std::equal_to<Vector2D>,
-              _Alloc=std::allocator<std::pair<const Vector2D,Vector2D>>
-          ]
-C:\Users\AniolMorató\OneDrive - U.College of New Technologies SL\Documents\GitHub\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Agent.cpp(206,36): message : see reference to class template instantiation 'std::unordered_map<Vector2D,Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>' being compiled
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Agent.cpp(206,36): message : see reference to class template instantiation 'std::unordered_map<Vector2D,Vector2D,std::hash<Vector2D>,std::equal_to<Vector2D>,std::allocator<std::pair<const Vector2D,Vector2D>>>' being compiled
+  BreathFirstSearch.cpp
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(30,17): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(30,24): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(34,78): error C2556: 'std::vector<Vector2D,std::allocator<Vector2D>> BreathFirstSearch::Search(Node *,Vector2D)': overloaded function differs only by return type from 'void BreathFirstSearch::Search(Node *,Vector2D)'
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.h(33,7): message : see declaration of 'BreathFirstSearch::Search'
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(34,37): error C2371: 'BreathFirstSearch::Search': redefinition; different basic types
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.h(33,7): message : see declaration of 'BreathFirstSearch::Search'
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(60,73): error C2556: 'void BreathFirstSearch::SearchPerTick(Node *,Vector2D)': overloaded function differs only by return type from 'std::vector<Vector2D,std::allocator<Vector2D>> BreathFirstSearch::SearchPerTick(Node *,Vector2D)'
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.h(34,19): message : see declaration of 'BreathFirstSearch::SearchPerTick'
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(60,25): error C2371: 'BreathFirstSearch::SearchPerTick': redefinition; different basic types
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.h(34,19): message : see declaration of 'BreathFirstSearch::SearchPerTick'
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(82,49): error C2065: 'SceneDebugPF': undeclared identifier
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(82,63): error C2065: 'scene': undeclared identifier
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(82,76): error C2065: 'startNode': undeclared identifier
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(82,70): error C2275: 'Node': expected an expression instead of a type
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(82,87): error C2275: 'Vector2D': expected an expression instead of a type
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(82,96): error C2146: syntax error: missing ')' before identifier 'endPos'
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(82,104): error C2143: syntax error: missing ';' before '{'
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(82,104): error C2447: '{': missing function header (old-style formal list?)
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(113,20): warning C4018: '<': signed/unsigned mismatch
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(119,19): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(119,26): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(126,20): warning C4018: '<': signed/unsigned mismatch
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(134,19): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(134,26): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(141,28): warning C4244: 'argument': conversion from 'float' to 'const unsigned int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(141,39): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(153,20): warning C4018: '<': signed/unsigned mismatch
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\BreathFirstSearch.cpp(171,20): warning C4018: '<': signed/unsigned mismatch
+  Grid.cpp
+  Heuristics.cpp
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Heuristics.cpp(7,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Heuristics.cpp(10,59): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Heuristics.cpp(13,59): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+D:\GIT REPOS\AA3_JordiCliment_AniolMorato\SDL_Pathfinding\Heuristics.cpp(17,20): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+  PathFollowing.cpp
+  SceneBreathFirstSearch.cpp
+  ScenePathFindingMouse.cpp
+  SDL_SimpleApp.cpp
+  Seek.cpp
+  utils.cpp
+  Generating Code...
