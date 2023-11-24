@@ -26,8 +26,7 @@ SceneBreathFirstSearch::SceneBreathFirstSearch()
 	coinPosition = Vector2D(-1, -1);
 	while ((!maze->isValidCell(coinPosition)) || (Vector2D::Distance(coinPosition, rand_cell) < 3))
 		coinPosition = Vector2D((float)(rand() % maze->getNumCellX()), (float)(rand() % maze->getNumCellY()));
-
-	agent->calculateBreathFirstSearch(agent->getPosition(), coinPosition);
+	
 }
 
 SceneBreathFirstSearch::~SceneBreathFirstSearch()

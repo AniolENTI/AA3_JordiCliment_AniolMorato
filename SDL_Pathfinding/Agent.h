@@ -68,5 +68,4 @@ public:
 	void draw();
 	bool Agent::loadSpriteTexture(char* filename, int num_frames=1);
 	
-	vector<Vector2D> calculateBreathFirstSearch(Vector2D agentPosition, Vector2D targetPosition);
 };
